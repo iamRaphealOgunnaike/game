@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+body{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+}
+
+
+@keyframes example {
+    0%{background-color: rebeccapurple;}
+    25%{background-color: rebeccapurple;}
+    50%{background-color: seashell;}
+    75%{background-color: rosybrown;}
+    100%{background-color: indigo;}
+    25%{background-color: red;}
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    line-height: 4rem;
+    
+   
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
